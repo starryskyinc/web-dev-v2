@@ -1,0 +1,4 @@
+,
+"emmet.variables": {
+    "lang": "ja"
+},
