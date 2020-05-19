@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>お問合せフォーム</title>
+</head>
+<body>
+  <h1>お問合せフォーム</h1>
+  <form action="#" method="POST">
+    <dl>
+      <dt><label for="username">お名前</label></dt>
+      <dd><input id="username" type="text" name="username"></dd>
+
+      <dt><label for="email">メールアドレス</label></dt>
+      <dd><input id="email" type="text" name="email"></dd>
+
+      <dt><label for="area">お住いの地域</label></dt>
+      <dd>
+        <select id="area" name="area">
+          <option value="" selected>選択してください</option>
+          <option value="hokkaido">北海道</option>
+          <option value="tohoku">東北</option>
+          <option value="kanto">関東</option>
+          <option value="chubu">中部</option>
+          <option value="kinki">近畿</option>
+          <option value="shikoku">四国</option>
+          <option value="kyushu">九州</option>
+          <option value="okinawa">沖縄</option>
+        </select>
+      </dd>
+
+      <dt>性別</dt>
+      <dd>
+        <label><input type="radio" name="gender" value="male" checked>男性</label>
+        <label><input type="radio" name="gender" value="female">女性</label>
+      </dd>
+
+      <dt><label for="contents">お問い合わせ内容</label></dt>
+      <dd><textarea id="contents" name="contents"></textarea></dd>
+
+      <dt><label for="privacy">プライバシーポリシーに同意する</label></dt>
+      <dd><input id="privacy" type="checkbox" name="privacy" value="1" ></dd>
+      
+    </dl>
+    <input type="submit" name="submit" value="送信">
+  </form>
+</body>
+</html>
