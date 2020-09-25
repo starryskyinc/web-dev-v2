@@ -64,3 +64,55 @@ header nav ul li.current a {
   background-position: center;
   background-size: cover;
 }
+
+/* contents */
+
+.contents {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+#main_content {
+  width: 65%;
+}
+
+#sidebar {
+  width: 31%;
+}
+
+#home h2 {
+  margin-bottom: 20px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #8c6239;
+  font-size: 1.2rem;
+}
+
+#info dl {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
+#info dt {
+  width: 7em;
+}
+
+#info dd {
+  width: calc(100% - 7em);
+}
+
+#info dt,
+#info dd {
+  margin-bottom: 10px;
+}
+
+#campaign ul li {
+  margin-bottom: 10px;
+  list-style-type: none;
+}
+
+#sidebar ul li {
+  margin-bottom: 20px;
+  list-style-type: none;
+}
