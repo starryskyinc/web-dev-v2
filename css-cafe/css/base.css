@@ -116,3 +116,40 @@ header nav ul li.current a {
   margin-bottom: 20px;
   list-style-type: none;
 }
+
+/* footer */
+
+footer {
+  margin-top: 100px;
+  padding: 30px;
+  text-align: center;
+  color: #fff;
+  background-color: #a67c52;
+}
+
+footer ul {
+  margin-bottom: 20px;
+  font-size: 0.9rem;
+}
+
+footer ul li {
+  display: inline-block;
+  margin: 5px;
+}
+
+footer ul li a {
+  color: #fff;
+}
+
+footer ul li a:link {
+  text-decoration: none;
+}
+
+footer ul li a:hover,
+footer ul li a:active {
+  opacity: .7;
+}
+
+small {
+  font-size: 0.7rem;
+}
