@@ -59,7 +59,7 @@ header nav ul li.current a {
 #main_image {
   width: 100%;
   height: 50vh;
-  background-image: url(https://via.placeholder.com/3000x2500);
+  background-image: url(../images/cafe.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
