@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>結合子を使ったセレクタ</title>
+  <style>
+    /* ユニバーサルセレクタ */
+    /* * {
+      margin: 0;
+    } */
+
+    /* 子孫セレクタ */
+    /* p strong {
+      color: red;
+    } */
+
+    /* 子セレクタ */
+    /* p > strong {
+      color: red;
+    } */
+
+    /* 隣接セレクタ */
+    /* h2 + p {
+      color: red;
+    } */
+
+    /* 間接セレクタ */
+    h1 ~ p {
+      color: red;
+    }
+
+  </style>
+</head>
+<body>
+  <h1>結合子を使ったセレクタ</h1>
+
+  <h2>今日の<strong>注意事項</strong></h2>
+  <p>家に帰ったら<strong>手洗い</strong>をしましょう。</p>
+  <p>アルコール消毒をしましょう。</p>
+</body>
+</html>
